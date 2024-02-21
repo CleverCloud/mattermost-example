@@ -1,6 +1,6 @@
 # Deploy Mattermost on Clever Cloud
 
-This repo is a collection of scripts to deploy [Mattermost](https://mattermost.com) on Clever Cloud using a **Node.js** app out of the box.
+This repo is a collection of scripts to deploy [Mattermost](https://mattermost.com) on Clever Cloud using a [**Node.js**](https://developers.clever-cloud.com/doc/applications/javascript/nodejs/) app out of the box.
 
 ## Pre-requisites
 
@@ -32,7 +32,7 @@ Check both your database add-on and your Cellar addon dashboard in the Console t
 
 - `MATTERMOST_VERSION="<your_desired_version>"`
 - The port to listen to : `MM_SERVICESETTINGS_LISTENADDRESS=":8080"`
-- Database connection string: Replace `< >` statement with the appropiate URI from your database environment variable/
+- Database connection string: Replace `< >` statement with the appropiate URI from your database environment variable:
   - For PostrgeSQL: `MM_SQLSETTINGS_DATASOURCE="<POSTGRESQL_ADDON_URI_value>?sslmode=disable&connect_timeout=10`
   - For MySQL: `MM_SQLSETTINGS_DATASOURCE=<MYSQL_ADDON_URI_value>?charset=utf8mb4,utf8&writeTimeout=30s"`
   - Database driver: `MM_SQLSETTINGS_DRIVERNAME="postgres"` or `"mysql"`
