@@ -16,7 +16,7 @@ Follow these steps to deploy Mattermost on Clever Cloud.
 
 #### 1. 📂 Create a Cellar bucket
 
-From the Clever Cloud console, go to your Cellar add-on's dashoboard, enter the name of your bucket (it can be anything) and click on *Create bucket**.
+From the Clever Cloud console, go to your Cellar add-on's dashboard, enter the name of your bucket (it can be anything) and click on *Create bucket**.
 
 ![Create bucket option on Clever Cloud Console](/assets/cellar-bucket-create.png)
 
