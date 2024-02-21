@@ -30,7 +30,7 @@ Check both your database add-on and your Cellar addon dashboaord in the Console 
 2. Follow the creation tunnel until you get to the environment variables
 3. Set the following environment variables
 
-- `MATTERMOST_VERSION="your_desired_version"`
+- `MATTERMOST_VERSION="<your_desired_version>"`
 - The port to listen to : `MM_SERVICESETTINGS_LISTENADDRESS=":8080"`
 - Database connection string: Replace `< >` statement with the appropiate URI from your database environment variable/
   - For PostrgeSQL: `MM_SQLSETTINGS_DATASOURCE="<POSTGRESQL_ADDON_URI_value>?sslmode=disable&connect_timeout=10`
@@ -43,7 +43,7 @@ Check both your database add-on and your Cellar addon dashboaord in the Console 
 MM_FILESETTINGS_AMAZONS3ACCESSKEYID="<cellar_Key_ID>"
 MM_FILESETTINGS_AMAZONS3BUCKET="<bucket_name>"
 MM_FILESETTINGS_AMAZONS3ENDPOINT="cellar-c2.services.clever-cloud.com"
-MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY="<cellar_Key_Secret"
+MM_FILESETTINGS_AMAZONS3SECRETACCESSKEY="<cellar_Key_Secret>"
 MM_FILESETTINGS_DRIVERNAME="amazons3"
 ```
 
