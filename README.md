@@ -24,7 +24,7 @@ From the Clever Cloud console, go to your Cellar add-on's dashoboard, enter the 
 
 Mattermost is usually configured with a `config.json` file, but you can override this file by injecting environment variables. On Clever Cloud, **environment variables are injected dynamically**, the following steps give you the ones you need to deploy Mattermost.
 
-Check both your database add-on and your Cellar addon dashboaord in the Console to get the environement variables' values.
+Check both your database add-on and your Cellar addon dashboard in the Console to get the environement variables' values.
 
 1. Create a new Node.js app
 2. Follow the creation tunnel until you get to the environment variables
